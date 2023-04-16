@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <title>Landing Page-Docs</title>
+</head>
+<main class="container">
+    <header id="header">
+        <div class="name">
+        <a href="#"><img src="mainlogo.png" alt="logo" id="header-img"></a>
+        <h2>DOCS</h2>
+    </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#feature" class="nav-link">Features</a></li>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#sign" class="nav-link">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header section -->
+
+    <section id="banner">
+        <!-- <img src="assets/images/illustration-intro.png" class="banner-image"> -->
+        <img src="mainlogo.png" class="banner-image">
+        <div id="banner-text">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>Docs stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+            <button id="banner-btn">Get Started</button>
+        </div>
+    </section>
+    <!-- end of banner section -->
+
+    <div id="feature"></div>
+    <section id="features">
+        <div class="feature-item">
+            <img src="http://surl.li/gkjpz">
+            <h4>Access your files anywhere</h4>
+            <p>The ability to use a smartphone, tablet, or computer <br> to access your access means your files follow you <br> everywhere.</p>
+        </div>
+        <div class="feature-item">
+            <img src="http://surl.li/gkjpz">
+            <h4>Security you can trust</h4>
+            <p>2-factor authentication and user-controlled encryption are <br> just a couple of the security features we allow to help <br> secure your files.</p>
+        </div>
+        <div class="feature-item">
+            <img src="http://surl.li/gkjpz">
+            <h4>Real-time collaboration</h4>
+            <p>Securely share files and folders with friends, family and <br> colleagues for live collaboration. No email attachments <br> required.</p>
+        </div>
+        <div class="feature-item">
+            <img src="http://surl.li/gkjpz">
+            <h4>Store any type of folder</h4>
+            <p>Whether you're sharing holiday photos or work <br> documents, Docs has you covered allowing for all file <br> types to be securely stored and shared.</p>
+        </div>
+    </section>
+    <!-- end of features section -->
+
+    <div id="how-it-works"></div>
+    <section id="how">
+        <div>
+            <!-- <img src="assets/images/illustration-stay-productive.png"> -->
+            <!-- <video src="assets/videos/Golden-wings.mp4" controls="" id="video" class="how-video"></video> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l38NprAucXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="how-text">
+            <h1>Stay productive, wherever you are</h1>
+            <p>Never let location be an issue when accessing your files. Docs has you covered for all your file storage needs.</p>
+            <p>Securely share files and folders with your friends, family and colleagues for live collaboration. No email attachments required.</p>
+            <p><a href="#how-it-works">See how Docs works</a></p>
+        </div>
+    </section>
+    <!-- end of how section -->
+
+    <div id="team"></div>
+    <section id="team-members">
+        <div class="team-member">
+            <p>Docs has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <p class="profile">
+                <!-- <img src="assets/images/profile-1.jpg" class="profile-info"> -->
+                <img src="http://surl.li/gkjpz" class="profile-info">
+                <span class="profile-info">virendra <br> <span class="profile-title">Founder & CEO, Puddle</span></span></span>
+            </p>
+        </div>
+        <div class="team-member">
+            <p>Doc has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <p class="profile">
+                <!-- <img src="assets/images/profile-3.jpg" class="profile-info"> -->
+                <img src="http://surl.li/gkjpz" class="profile-info">
+                <span class="profile-info">Montaha Antara <br> <span class="profile-title">Founder & CEO, Puddle</span></span></span>
+            </p>
+        </div>
+        <div class="team-member">
+            <p>Docs has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <p class="profile">
+                <!-- <img src="assets/images/profile-2.jpg" class="profile-info"> -->
+                <img src="http://surl.li/gkjpz" class="profile-info">
+                <span class="profile-info">Kazran Ajmal <br> <span class="profile-title">Founder & CEO, Puddle</span></span>
+            </p>
+        </div>
+    </section>
+    <!-- end of team section -->
+
+    <div id="sign"></div>
+    <section>
+        <div id="sign-in">
+            <h1>Get early access today</h1>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+            <form id="form" action="#" method="post">
+                <input type="email" name="email" placeholder="email@example.com" id="email">
+                <input type="submit" id="submit" value="Get Started For Free">
+            </form>
+        </div>
+    </section>
+    <!-- end of signin section -->
+
+    <footer>
+        <div id="footer">
+            <div class="footer-item">
+                <img src="mainlogo.png" alt="logo" id="header-img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <div class="footer-item">
+                <ul>
+                    <li><i class="fas fa-phone"></i> +256 774 897645</li>
+                    <li><i class="fas fa-envelope"></i> example@Docs.com</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Blog & Press</li>
+                    <li>Terms & Privacy</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <ul>
+                    <li><i class="fab fa-twitter"></i> @Docs.com</li>
+                    <li><i class="fab fa-instagram"></i> @Docs.com</li>
+                    <li><i class="fab fa-facebook-f"></i> @Docs.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div id="copyright">
+        <span>Copyright &copy; Docs </span>
+    </div>
+    <!-- end of footer section -->
+
+</main>
+</body>
+
+</html>
